@@ -24,6 +24,12 @@ export const Movie = styled.li`
         width: 180px;
         border-radius: 1rem;
         margin-bottom: 2rem;
+        box-shadow: 2px 1px 5px #ffffff; 
+
+
+        /* RAINBOW GRADIENT EFFECT */
+        /* box-shadow: inset 0 0 12px 12px white, inset 0 0 13px 2px white;
+        background: linear-gradient(to right, orange , yellow, green, cyan, blue, violet); */
     }
 
     span {
@@ -39,5 +45,5 @@ export const Movie = styled.li`
     a:hover{
         transform: scale(1.1);
     }
-
 `
+
