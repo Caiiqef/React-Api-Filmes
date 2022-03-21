@@ -12,7 +12,7 @@ export const MovieList = styled.ul`
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     column-gap: 3rem;
-    row-gap: 2rem;
+    row-gap: 2frem;
 `
 
 export const Movie = styled.li`
@@ -25,17 +25,15 @@ export const Movie = styled.li`
         border-radius: 1rem;
         margin-bottom: 2rem;
         box-shadow: 2px 1px 5px #ffffff; 
-
-
-        /* RAINBOW GRADIENT EFFECT */
-        /* box-shadow: inset 0 0 12px 12px white, inset 0 0 13px 2px white;
-        background: linear-gradient(to right, orange , yellow, green, cyan, blue, violet); */
     }
 
     span {
         font-weight: bold;
         font-size: 120%;
         text-align: center;
+        /* RAINBOW GRADIENT EFFECT */
+        /* box-shadow: inset 0 0 12px 12px white, inset 0 0 13px 2px white;
+        background: linear-gradient(to right, orange , yellow, green, cyan, blue, violet); */
     }
 
     a {
