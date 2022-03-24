@@ -16,7 +16,7 @@ export const Container = styled.div`
     }
 
     img {
-        width: 300px;
+        width: 250px;
         border-radius: 1rem;
         transition: all 2s;
         box-shadow: 0px 0px 15px #ffffff; 
